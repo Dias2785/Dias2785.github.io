@@ -105,3 +105,18 @@ footer {
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
     }
 }
+.m-stripe {
+    width: 120px;
+    height: 6px;
+    margin: 12px auto 16px;
+    border-radius: 4px;
+    background: linear-gradient(
+        to right,
+        #00AEEF 0%,
+        #00AEEF 33%,
+        #0033A0 33%,
+        #0033A0 66%,
+        #E10600 66%,
+        #E10600 100%
+    );
+}
